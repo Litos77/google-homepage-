@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+/* Logo & Search bar */
+  .image {
+	display: flex;
+	justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bar {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.search-bar {
+	display: flex;
+	justify-content: center;
+}
+
+#search {
+	border-radius: 30px;
+	width: 400px;
+    height: 30px;
+}
+
